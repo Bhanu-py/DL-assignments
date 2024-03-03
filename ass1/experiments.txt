@@ -5,3 +5,6 @@ The current model setup and results look quite good. The training accuracy is ov
 - Dropout: You are currently using a dropout rate of 0.2. Dropout is a regularization technique that can help prevent overfitting. You can try using a higher dropout rate. However, be careful not to set the dropout rate too high as it might lead to underfitting.
 - Additional Hidden Layers: You can try adding more hidden layers to your model. This could potentially increase the model's capacity to learn complex patterns in the data. However, be careful not to make your model too complex as it might lead to overfitting.
 - Different Activation Functions: You are currently using the ReLU activation function in your hidden layers and the softmax activation function in your output layer. You can try using different activation functions to see if they improve your model's performance. However, the ReLU activation function is a good default choice for the hidden layers and the softmax activation function is a good choice for the output layer in a multiclass classification problem.
+
+
+- First set batche size and then experiment on othe HPs(get the best from the github leaderboard)
